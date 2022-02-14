@@ -440,7 +440,7 @@ function hpResults() {
     }
 
     // Profits with 1 bitcoin
-    let _1BCprofit = hProfitArr[2].toFixed(2);
+    let BCprofit = hProfitArr[2].toFixed(2);
 
     let hProfitPrint = "";
     hProfitPrint = `${hProfitPrint}<br>`;
@@ -450,7 +450,7 @@ function hpResults() {
     hProfitPrint = `${hProfitPrint}<br>`;
     hProfitPrint = `${hProfitPrint}When to sell: <b>` + sellDate + "</b>";
     hProfitPrint = `${hProfitPrint}<br>`;
-    hProfitPrint = `${hProfitPrint}Profit with 1 bitcoin (€): <span class='greenText'><b>` + _1BCprofit + "</span> €</b>";
+    hProfitPrint = `${hProfitPrint}Profit with 1 bitcoin (€): <span class='greenText'><b>` + BCprofit + "</span> €</b>";
     hProfitPrint = `${hProfitPrint}<br>`;
 
     return hProfitPrint;
