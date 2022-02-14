@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font import-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+    </style>
+
+    <!-- Title -->
+    <title>Scrooge's Bitcoin app</title>
+
+</head>
+
+<body>
+
+    <!-- Headline -->
+    <div id="titleDiv">
+        <h1 class="title" id="titleText">
+            Scrooge's Bitcoin app
+        </h1>
+        <br />
+        <picture class="titlePicture">
+            <img src="images/scrooge.png" id="scrooge" alt="Scrooge McDuck">
+        </picture>
+        <p class="description__text">
+            This is a simple website for bitcoin data.
+            <br />
+            To be used only with 
+            <span style="font-weight:700">
+                Gearloose©
+            </span> 
+            Time Machines.
+        </p>
+    </div>
+
+    <!-- Div containing datepickers and operation selectors-->
+    <div id="optionsDiv">
+
+        <!-- Datepickers -->
+        <div id="dateOptionsDiv">
+            <div class="dateOption">
+                <label for="startDate" class="dateOptionsLabel">
+                    Start date
+                </label>
+                <input type="date" id="startDate">
+            </div>
+            <div class="dateOption">
+                <label for="endDate" class="dateOptionsLabel">
+                    End date
+                </label>
+                <input type="date" id="endDate">
+            </div>
+        </div>
+
+        <!-- Operation selectors -->
+        <div id="selections">
+            <div id="longestDown" class="selectionDiv">
+                <input type="checkbox" id="downwardTrend">
+                <label for="downwardTrend" class="selectionTitle">
+                    Longest downward trend
+                </label>
+            </div>
+            <div id="highestTrading" class="selectionDiv">
+                <input type="checkbox" id="highestTradingVolume">
+                <label for="highestTradingVolume" class="selectionTitle">
+                    Highest trading volume
+                </label>
+            </div>
+            <div id="mostProfit" class="selectionDiv">
+                <input type="checkbox" id="highestPossibleProfit">
+                <label for="highestPossibleProfit" class="selectionTitle">
+                    Highest possible profit
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <input type="submit" id="submitBtn" name="submit" value="Get results">
+
+    <!-- Results -->
+    <div id="resultsDiv">
+
+    </div>
+
+    <div id="trademark">
+        <p>This simple website was made by Samu Warinowski. Source code</p>
+    </div>
+</body>
+
+<!-- JavaScript -->
+<script src="app.js">
+</script>
+
+</html>
