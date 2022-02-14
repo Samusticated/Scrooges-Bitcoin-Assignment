@@ -1,4 +1,4 @@
-# Scrooges-Bitcoin-Assignment
+# Scrooges Bitcoin Assignment
 
 Simple app for analyzing bitcoin data from the selected time frame. 
 App was built using HTML, CSS and Vanilla Javascript
