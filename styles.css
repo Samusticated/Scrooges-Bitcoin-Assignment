@@ -21,7 +21,10 @@ div {
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 3rem;
-    color: #f2f2f2;
+}
+
+a {
+    color: #f96d00;
 }
 
 input[type=checkbox] {
@@ -69,6 +72,10 @@ input:checked+label {
     padding-top: 5vw;
     white-space: nowrap;
     margin-bottom: 6rem;
+}
+
+.dateOptionsLabel {
+    color: #f2f2f2;
 }
 
 .dateOption {
